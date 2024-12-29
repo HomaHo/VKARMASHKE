@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #D3F7A6;
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.header{
+    background-color: #6AB571;
+    border-radius: 0 0 30px 30px;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 35px 45px; */ 
+}
+
+.menu {
+    display: flex;
+    gap: 42px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.main{
+    background-color: #D4F677;
+    text-align: center;
+}
+
+.logo img {
+    width: 320px;
+}
+
+.poster {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.button {
+    background-color: #D2FF59;
+    font-size: 24px;
+    padding: 14px;
+    border-radius: 27px;
+}
+
+.perehod{
+    background-color: #D4F677;
+}
+
+.perehod-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheliki img {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.zag1 {
+    background-color: #D3F7A6;
+    background-image: url("img/podopech.png");
+    background-repeat: no-repeat;
+}
+
+.zag1-container {
+    text-align: center;
+    padding: 131px;
+    border-radius: 366px;
+   /*  background-image: url("img/podopech.png");
+    background-repeat: no-repeat; */
+}
+
+.zag1-container h1 {
+    font-size: 64px;
+}
+
+.wallets {
+    background-color: #D3F7A6;
+}
+
+.wallets-backgound {
+    background-color: #6AB571;
+    border-radius: 30px;
+    padding-bottom: 100px;
+}
+
+.wallets-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wallet-image {
+    width: 330px;
+    height: 330px;
+    background: #fff;
+    border-radius: 72px;
+    background-size: cover;
+    background-position: center;
+}
+
+.wallet {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.wallet-image.leha {
+    background-image: url("img/leha.jpg");
+}
+
+.wallet-image.lek {
+    background-image: url("img/lek.jpg");
+}
+
+.wallet-image.mone {
+    background-image: url("img/mone.webp");
+}
+
+.wallet-image.shele {
+    background-image: url("img/shele.webp");
+}
+
+.wallet-title {
+    font-size: 32px;
+    padding-top:26px;
+}
+
+.volont {
+    background-color: #D3F7A6;
+    /* background-image: url("img/merch.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.volont-container {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.volont-blok1 {
+    text-align: center;
+    background-image: url("img/volont.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 967px;
+}
+
+.volont-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.volont-text p {
+    font-size: 24px; 
+    max-width: 858px;
+}
+
+.zag2 {
+    background-color: #D3F7A6;
+    background-image: url("img/podopech.png");
+    background-repeat: no-repeat;
+}
+
+.zag2-container {
+    text-align: center;
+    padding: 142px;
+    border-radius: 312px;
+    font-size: 64px;
+}
+
+.zag3 {
+    background-color: #D3F7A6;
+    background-image: url("img/shagi.png");
+    background-repeat: no-repeat;
+}
+
+.zag3-container {
+    text-align: center;
+    padding: 142px;
+    border-radius: 312px;
+    font-size: 64px;
+}
+
+.zag4 {
+    background-color: #D3F7A6;
+    background-image: url("img/shagi.png");
+    background-repeat: no-repeat;
+    padding: 30px 0 100px 0;
+}
+
+.zag4-container {
+    text-align: center;
+    padding: 78px;
+    border-radius: 353px;
+    font-size: 64px;
+}
+
+.podval-background{
+    background-color: #D3F7A6;
+}
+
+.podval{
+    background-color: #6AB571;
+    border-radius: 30px 30px 0 0;
+}
+
+.podval-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 59px; 
+}
+
+.podval-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.podval-icon {
+    background-color: #D2FF59;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.podval-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.podval-title {
+    font-size: 40px;
+}
+
+.logo2 img {
+    width: 261px;
+}
+
+.about {
+    background-image: url(img/verh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px 0;
+}
+
+.about-1 {
+    display: flex;
+    justify-content: center;
+    gap: 184px;
+}
+
+.about-1 img {
+    width: 530px;
+}
+
+.about-1-description {
+    text-align: center;
+}
+
+.about-1-description h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.about-1-description p {
+    font-size: 24px;
+    max-width: 600px;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+    margin-top: 290px;
+}
+
+.about-2 img {
+    width: 494px;
+}
+
+.about-2-description h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.faq {
+    background-color: #6ab571;
+    padding: 7px 14px 14px 14px;
+    border-radius: 15px;
+    margin-bottom: 33px;
+}
+
+.faq-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.faq p {
+    font-size: 20px;
+}
+
+.shagi {
+    background-color: #6ab571;
+    padding: 83px 42px;
+    border-radius: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shagi p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.shagi span {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.koshel {
+    text-align: center;
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-title {
+    background-color: #6ab571;
+    padding: 20px 70px;
+    border-radius: 44px;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.type-descr {
+    color: #000;
+    font-size: 24px;
+    margin: 30px;
+    text-align: center;
+}
+
+.stat {
+    background-color: #D3F7A6;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stat-container {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.stat-blok1 {
+    text-align: center;
+    background-image: url("img/dinat.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    min-width: 1263px;
+}
+
+.stat-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat-text h2 {
+    font-size: 60px; 
+    max-width: 1100px;
+}
+
+.stat-block{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 59px;
+    gap: 150px; 
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-icon {
+    background-color: #D2FF59;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-item p {
+    color: #000;
+    margin-top: 23px;
+    font-size: 40px;
+    max-width: 250px;
+}
+
+.stat-item p span {
+    color: red;
+}
+.merchs {
+    background-color: #D3F7A6;
+}
+
+.merchs-backgound {
+    background-color: #6AB571;
+    border-radius: 30px;
+    padding-bottom: 100px;
+}
+
+.merchs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.merch-image {
+    width: 330px;
+    height: 330px;
+    background: #fff;
+    border-radius: 72px;
+    background-size: cover;
+    background-position: center;
+}
+
+.merch {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.merch-image.leha {
+    background-image: url("img/brelok.jpg");
+}
+
+.merch-image.lek {
+    background-image: url("img/symka.jpg");
+}
+
+.merch-image.mone {
+    background-image: url("img/znachek.jpg");
+}
+
+.merch-image.shele {
+    background-image: url("img/broshyra.jpg");
+}
+
+.merch-title {
+    font-size: 32px;
+    padding-top:26px;
+}
